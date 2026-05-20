@@ -69,7 +69,9 @@ torchrun --standalone --nproc_per_node=4 train_finetune.py \
     --steps 20000
 ```
 
-## Results
+## Results & W&B Runs
+
+The exact W&B run for every paper experiment is listed in [`WANDB_RUNS.md`](./WANDB_RUNS.md) (training/validation curves, configs, and system metrics). Project: <https://wandb.ai/wdlctc_abr/attention-residual-h100>.
 
 ### From-Scratch Training (10K steps, FineWeb-Edu)
 
